@@ -15,7 +15,7 @@ Aplikasi ini dibangun menggunakan framework **Laravel 11** dengan menerapkan ars
 1. **Simulasi Login:** Meneruskan *username* ke halaman Dashboard dan Profile menggunakan parameter URL.
 2. **Dashboard Statistik:** Menampilkan ringkasan total tugas, tugas selesai, proses, dan belum dikerjakan.
 3. **Pengelolaan Tugas:** Menampilkan daftar tugas lengkap (Teori & Praktikum) yang diurutkan secara otomatis berdasarkan deadline terdekat.
-4. **Filter Interaktif:** Menyaring tugas berdasarkan kategori Teori/Praktikum menggunakan Alpine.js tanpa me-reload halaman.
+4. **Filter Interaktif:** Menyaring tugas berdasarkan kategori Teori/Praktikum menggunakan Alpine.js tanpa reload halaman.
 5. **Desain Modern:** Menggunakan Tailwind CSS dengan tema *Dark Mode* yang elegan dan responsif di berbagai ukuran layar (Desktop & Mobile).
 
 ## Teknologi yang Digunakan
