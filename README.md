@@ -26,14 +26,18 @@ Aplikasi ini dibangun menggunakan framework **Laravel 11** dengan menerapkan ars
 ## Tampilan Antarmuka (Screenshot)
 
 ### Versi Desktop
-*(Tampilan Dashboard & Pengelolaan Tugas di Desktop)*
+*(Tampilan Dashboard Tugas di Desktop)*
 
-![Screenshot Desktop](public/images/desktop.png)
+<p align="center">
+  <img src="public/images/desktop.png" alt="Screenshot Desktop" width="700" />
+</p>
 
 ### Versi Mobile
 *(Tampilan Responsif di Layar HP)*
 
-![Screenshot Mobile](public/images/mobile.png)
+<p align="center">
+  <img src="public/images/mobile.png" alt="Screenshot Mobile" width="250" />
+</p>
 
 ## Cara Menjalankan Proyek Secara Lokal
 Jika ingin menjalankan proyek ini di komputer lokal (misal: menggunakan Laragon atau XAMPP):
