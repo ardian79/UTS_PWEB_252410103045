@@ -38,10 +38,3 @@ Aplikasi ini dibangun menggunakan framework **Laravel 11** dengan menerapkan ars
 <p align="center">
   <img src="public/images/mobile.png" alt="Screenshot Mobile" width="250" />
 </p>
-
-## Cara Menjalankan Proyek Secara Lokal
-Jika ingin menjalankan proyek ini di komputer lokal (misal: menggunakan Laragon atau XAMPP):
-
-1. Clone repositori ini:
-   ```bash
-   git clone https://github.com/username-kamu/UTS_PWEB_252410103045.git
