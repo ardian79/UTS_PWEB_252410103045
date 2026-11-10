@@ -1,66 +1,43 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# StudyFlow - Aplikasi Manajemen Tugas Mahasiswa
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+**Tugas UTS Pemrograman Berbasis Website**
+*   **Nama:** Rizal Lazuardi
+*   **NIM:** 252410103045
+*   **Kelas:** [Isi Kelas Kamu, misal: TI - C]
+*   **Program Studi:** Informatika
 
-## About Laravel
+## Tentang Aplikasi
+**StudyFlow** adalah aplikasi web manajemen tugas (To-Do List) yang dirancang khusus untuk mahasiswa. Aplikasi ini membantu mahasiswa dalam memantau tugas Teori dan Praktikum, melihat statistik tugas, serta memprioritaskan tugas berdasarkan tenggat waktu (deadline) terdekat.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Aplikasi ini dibangun menggunakan framework **Laravel 11** dengan menerapkan arsitektur **MVC (Model-View-Controller)** dan **Tanpa Menggunakan Database / CRUD**. Data tugas dan pengguna disimulasikan menggunakan *Array* di dalam Controller (Request Handling).
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+### Fitur Utama:
+1. **Simulasi Login:** Meneruskan *username* ke halaman Dashboard dan Profile menggunakan parameter URL.
+2. **Dashboard Statistik:** Menampilkan ringkasan total tugas, tugas selesai, proses, dan belum dikerjakan.
+3. **Pengelolaan Tugas:** Menampilkan daftar tugas lengkap (Teori & Praktikum) yang diurutkan secara otomatis berdasarkan deadline terdekat.
+4. **Filter Interaktif:** Menyaring tugas berdasarkan kategori Teori/Praktikum menggunakan Alpine.js tanpa me-reload halaman.
+5. **Desain Modern:** Menggunakan Tailwind CSS dengan tema *Dark Mode* yang elegan dan responsif di berbagai ukuran layar (Desktop & Mobile).
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Teknologi yang Digunakan
+*   **Backend:** Laravel 11 (PHP 8.2+)
+*   **Frontend:** Tailwind CSS (via CDN), Alpine.js, HTML5, Blade Templating Engine
+*   **Arsitektur:** MVC (Model-View-Controller) tanpa Database
 
-## Learning Laravel
+## Tampilan Antarmuka (Screenshot)
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+### Versi Desktop
+*(Tampilan Dashboard & Pengelolaan Tugas di Desktop)*
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+![Screenshot Desktop](images/desktop.png)
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+### Versi Mobile
+*(Tampilan Responsif di Layar HP)*
 
-## Laravel Sponsors
+![Screenshot Mobile](images/mobile.png)
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+## Cara Menjalankan Proyek Secara Lokal
+Jika ingin menjalankan proyek ini di komputer lokal (misal: menggunakan Laragon atau XAMPP):
 
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+1. Clone repositori ini:
+   ```bash
+   git clone https://github.com/username-kamu/UTS_PWEB_252410103045.git
