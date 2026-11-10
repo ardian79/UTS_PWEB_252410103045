@@ -3,7 +3,7 @@
 **Tugas UTS Pemrograman Berbasis Website**
 *   **Nama:** Rizal Lazuardi
 *   **NIM:** 252410103045
-*   **Kelas:** [Isi Kelas Kamu, misal: TI - C]
+*   **Kelas:** F
 *   **Program Studi:** Informatika
 
 ## Tentang Aplikasi
